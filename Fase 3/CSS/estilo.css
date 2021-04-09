@@ -1,0 +1,82 @@
+.primero {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+
+    color:gold;
+    background-color: rgb(9, 37, 163);
+    text-align: center;
+}
+.inicio{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.segundo{
+    background: rgb(45, 231, 245);
+    color: rgb(6, 7, 6);
+}
+.autor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    grid-template-rows: repeat(6, auto);
+}
+body{
+    background: aquamarine;
+}
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background-color:rgb(6, 136, 243)
+}
+.navegacion ul{
+   list-style: none; 
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color:rgb(10, 9, 1);
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li a :hover{
+    color: brown;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: cyan;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.recurso{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align:center;
+}
+.aside{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align:right;
+}
+
