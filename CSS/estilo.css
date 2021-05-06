@@ -1,0 +1,45 @@
+header{
+    background-color:rgb(50, 178, 238);
+    padding: 20px;
+    text-align:center;
+   
+}
+nav{
+    background-color: rgb(158, 211, 208);
+    color: indigo;
+    padding: 8px;
+   
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+}
+
+section{
+    grid-column: 1/2;
+    background-color: rgb(189, 219, 236);
+    padding: 5px;
+
+}
+
+aside{
+    grid-column: 2/3;
+    background-color: rgb(5, 2, 175);
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align:center;
+}
+.parrafo{
+    background-color: rgb(175, 168, 204);
+    color:rgb(187, 6, 6)
+
+}
+.articulo{
+    background-color: rgb(128, 238, 137);
+    text-align:center;    
+}
